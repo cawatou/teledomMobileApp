@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/slide_background_green.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/slide_background_green.xml"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_48.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_48.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/raised_selector.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/raised_selector.xml"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/exit_icon.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/exit_icon.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/logout_icon.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/logout_icon.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/phone_c_64.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/phone_c_64.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_64_r.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_64_r.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_64.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_64.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_72_r.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_72_r.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_72_b.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_72_b.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_64_b.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_64_b.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_48_r.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_48_r.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_72.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_72.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/raised_pressed.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/raised_pressed.xml"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/arrow_48_b.png",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/arrow_48_b.png"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/raised_normal.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/raised_normal.xml"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/drawable/slide_background_red.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/drawable/slide_background_red.xml"
+    }
+]

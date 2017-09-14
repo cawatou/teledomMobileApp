@@ -1,0 +1,42 @@
+<ion-modal-view id="call">
+	<ion-content>
+		<div id="remoteVideo"></div>
+		<div id="panAnswer" class="button-bar bar-stable" ng-show="showPanAnswer">
+			<button class="button button-assertive" ng-click="hangup()">СБРОСИТЬ</button>
+			<button id="answer" class="button button-balanced" ng-click="answer()">ГОВОРИТЬ</button>
+			<button class="button button-balanced" ng-click="openDoor()">ВПУСТИТЬ</button>
+		</div>
+		<div id="panHangup" class="button-bar bar-stable" ng-show="showPanHangup">
+			<button class="button button-assertive" ng-click="hangup()">СБРОСИТЬ</button>
+			<button class="button button-balanced" ng-click="openDoor()">ВПУСТИТЬ</button>
+		</div>
+	</ion-content>
+</ion-modal-view>
+<style>
+	#call,
+	#remoteVideo {
+		background-color: #272628;
+	}
+
+	.button-bar {
+		position: absolute;
+		height: 40px !important;
+	}
+
+	#panAnswer.button-bar,
+	#panHangup.button-bar {
+		bottom: 40px;
+	}
+	.button-bar button {
+		margin: 6px;
+	}
+	#remoteVideo {
+		height: 100%;
+	}
+	#remoteVideo video {
+		height: 100%;
+	}
+	#remoteVideo img {
+		width: 100%;
+	}
+</style>

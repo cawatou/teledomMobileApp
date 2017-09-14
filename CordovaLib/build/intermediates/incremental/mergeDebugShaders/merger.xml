@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/leodimark/Android/app/teledom_platform/CordovaLib/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/leodimark/Android/app/teledom_platform/CordovaLib/src/debug/shaders"/></dataSet></merger>

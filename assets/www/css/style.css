@@ -1,0 +1,175 @@
+	.domofon {
+		//line-height: 1em;
+		color: #000;
+		max-width: inherit;
+	}
+
+	.domofon ion-side-menu,
+	.domofon item-avatar {
+		background-color: #384967;
+	}
+
+	.domofon .list .item,
+	.domofon .bar-header,
+	.domofon .ion-navicon {
+		background-color: #39527b;
+		color: #fff;
+	}
+
+	.domofon ion-header-bar {
+		background-size: 0;
+	}
+
+	.domofon .bar {
+		padding: 5px 10px !important;
+	}
+
+	.domofon .header-item .right-buttons {
+		padding-right: 5px;
+	}
+
+	.domofon .has-header {
+		top: 70px;
+	}
+
+	.domofon .list .item,
+	.domofon .bar-header {
+		border: 0;
+		color: #fff;
+		height: 70px;
+	}
+
+	.domofon ion-header-bar .buttons-right.header-item {
+		padding-top: 13px;
+	}
+
+	.domofon ion-header-bar .buttons-left.header-item  {
+		padding-top: 8px;
+	}
+
+	.domofon .item-one-line .item-content {
+		padding: 22px 15px 22px 92px;
+	}
+
+	.domofon .item-two-line .item-content {
+		padding: 13px 15px 13px 92px;
+	}
+
+	.domofon .item-content {
+		background: transparent;
+		height: 100%;
+	}
+
+	.domofon .item-disabled .item-content h2 {
+		color: rgba(255,255,255,.3);
+	}
+
+	.domofon .item.active.item-complex > .item-content {
+		background: #516a8a;
+	}
+
+	.domofon .item .item-content.activated  {
+		background: rgba(0,0,0,.2);
+	}
+
+	.domofon .list,
+	.domofon .list .item:last-child {
+		border-top: 1px solid #516a8a;
+		padding: 0;
+	}
+
+	.domofon ion-side-menu .has-header {
+		top: 215px;
+	}
+
+	.domofon header {
+		display: block;
+		margin: 0;
+		text-align: center;
+		color: #fff;
+	}
+
+	.domofon header .user {
+		border-radius: 50%;
+    display: inline-block;
+    margin: 15px auto;
+	}
+
+	.domofon header .user img {
+		border-radius: 50%;
+	}
+
+	.domofon header .name {
+		margin: 0 0 15px;
+	}
+
+
+	.domofon .right-buttons {
+	    line-height: 1.5em;
+	}
+
+	.domofon label.toggle {
+		margin-left: 10px !important;
+	}
+
+	.domofon .toggle .track {
+		background-color: #fc4c4e;
+		border-color: #fc4c4e;
+	}
+
+
+	.domofon .item-icon-left .icon {
+	    left: 24px;
+	}
+
+	.domofon .item,
+	.domofon .item h2,
+	.domofon .item p {
+		color: #fff;
+		font-family: "Roboto",sans-serif;
+    font-weight: 400;
+		font-size: 20px;
+		margin: 0;
+	}
+
+	.domofon .item p {
+		font-size: 13px;
+	}
+
+	.icon-history:before,
+	.icon-airkey:before,
+	.icon-settings:before,
+	.icon-about:before,
+	.icon-exit:before {
+	  display: inline-block;
+	  font-family: "Ionicons";
+	  speak: none;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  text-rendering: auto;
+	  line-height: 1;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-history:before {
+		content: url(img/icon1.png);
+	}
+	.icon-airkey:before {
+		content: url(img/icon2.png);
+	}
+	.icon-settings:before {
+		content: url(img/icon3.png);
+	}
+	.icon-about:before {
+		content: url(img/icon4.png);
+	}
+	.icon-exit:before  {
+		content: url(img/icon5.png);
+	}
+
+	.domofon .bar .button-icon:before {
+		font-size: 40px;
+	}

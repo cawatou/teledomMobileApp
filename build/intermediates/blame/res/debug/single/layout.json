@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/layout/dailer_layout.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/layout/dailer_layout.xml"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/layout/activity_video_call.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/layout/activity_video_call.xml"
+    }
+]

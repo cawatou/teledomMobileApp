@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/leodimark/Android/app/teledom_platform/CordovaLib/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="13c19a6ae4f784a3def50f20b1f4960aa23a3012">
+        <dex dex="/home/leodimark/Android/app/teledom_platform/build/intermediates/pre-dexed/debug/classes_314d8f7fa64c5b4ee6626bda8182e4c5bc1782c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/leodimark/Android/app/teledom_platform/libs/pubnub-android-3.7.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c02cccf01db17087381def915810bf65979a4d28">
+        <dex dex="/home/leodimark/Android/app/teledom_platform/build/intermediates/pre-dexed/debug/pubnub-android-3.7.4_66ef9eefcf2d3cd7789d061d19f9356dbd84ca88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="426992e43b79772621a5a563e36067772459c323">
+        <dex dex="/home/leodimark/Android/app/teledom_platform/build/intermediates/pre-dexed/debug/classes_d5213c9712ea1543afb473cdf3365826d251d269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/leodimark/Android/app/teledom_platform/libs/android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9b6a9a9078af571732159b904ad423b03b7cc786">
+        <dex dex="/home/leodimark/Android/app/teledom_platform/build/intermediates/pre-dexed/debug/android-support-v4_29ddeabe832c459d2dbf82db04485c94df1acd6c.jar" />
+    </item>
+
+</items>

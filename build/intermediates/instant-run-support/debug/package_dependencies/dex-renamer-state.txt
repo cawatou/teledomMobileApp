@@ -1,0 +1,10 @@
+#Sat Aug 19 21:23:18 MSK 2017
+renamed.2=classes3.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
+base.2=/home/leodimark/Android/app/teledom_platform/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_29ddeabe832c459d2dbf82db04485c94df1acd6c
+base.1=/home/leodimark/Android/app/teledom_platform/build/intermediates/transforms/dex/debug/folders/1000/10/pubnub-android-3.7.4_5cdc08d8a9dd38bfeb1e9b70f5aaf4fbb66a2617
+base.0=/home/leodimark/Android/app/teledom_platform/build/intermediates/transforms/dex/debug/folders/1000/10/libjingle_peerconnection_fced72b1ca4121db362ccb3f9224629f23e30b58
+file.2=/home/leodimark/Android/app/teledom_platform/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_29ddeabe832c459d2dbf82db04485c94df1acd6c/classes.dex
+file.1=/home/leodimark/Android/app/teledom_platform/build/intermediates/transforms/dex/debug/folders/1000/10/pubnub-android-3.7.4_5cdc08d8a9dd38bfeb1e9b70f5aaf4fbb66a2617/classes.dex
+file.0=/home/leodimark/Android/app/teledom_platform/build/intermediates/transforms/dex/debug/folders/1000/10/libjingle_peerconnection_fced72b1ca4121db362ccb3f9224629f23e30b58/classes.dex

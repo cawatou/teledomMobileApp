@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:2:98-125
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:2:70-97
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:2:11-45
+	android:versionCode
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:2:46-69
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:2:126-184
+supports-screens
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:4:5-67
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:5:5-26:19
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:33:5-36:19
+MERGED from [io.pristine:libjingle:9694] /home/leodimark/.android/build-cache/9712345105d034fb80db83757ed826ca7e6ab4bf/output/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:5:81-113
+	android:supportsRtl
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:5:114-140
+	android:hardwareAccelerated
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:5:53-80
+	android:allowBackup
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:34:9-35
+activity#com.skipo.teledom.MainActivity
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:9:27-74
+activity#me.apla.cordova.AppPreferencesActivity
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:12:9-75
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:12:19-72
+receiver#com.skipo.teledom.app.receiver.CallStateReceiver
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:13:9-17:20
+	android:enabled
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:13:19-41
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:13:42-105
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:14:13-16:29
+	android:priority
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:14:28-49
+action#android.intent.action.PHONE_STATE
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:15:25-73
+receiver#com.skipo.teledom.app.receiver.BootCompleteReceiver
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:18:9-24:20
+	android:enabled
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:18:19-41
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:18:42-108
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:19:13-23:29
+	android:priority
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:19:28-49
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:20:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:21:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:22:25-79
+service#com.skipo.teledom.app.service.CallDetachService
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:25:9-106
+	android:enabled
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:25:18-40
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:25:41-103
+uses-sdk
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:27:5-74
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:5:5-7:41
+MERGED from [io.pristine:libjingle:9694] /home/leodimark/.android/build-cache/9712345105d034fb80db83757ed826ca7e6ab4bf/output/AndroidManifest.xml:7:5-9:41
+MERGED from [org.apache.cordova:CordovaLib:6.2.3:debug] /home/leodimark/Android/app/teledom_platform/CordovaLib/build/intermediates/bundles/debug/AndroidManifest.xml:25:5-44
+	android:targetSdkVersion
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:27:42-71
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:27:15-41
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+		INJECTED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:28:5-65
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:28:22-62
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:29:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:30:5-68
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:30:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:31:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:32:5-71
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:32:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:33:5-80
+MERGED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:33:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:34:5-75
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:34:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:35:22-78
+uses-permission#android.permission.QUICKBOOT_POWERON
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:36:5-76
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:36:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:37:5-78
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:37:22-75
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:38:5-69
+	android:name
+		ADDED from /home/leodimark/Android/app/teledom_platform/AndroidManifest.xml:38:22-66
+uses-feature#android.hardware.camera
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:10:5-60
+	android:name
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:10:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:11:19-67
+uses-feature#0x00020000
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:12:5-14:35
+	android:glEsVersion
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:13:9-41
+	android:required
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:14:9-32
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:19:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:25:5-82
+	android:name
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:25:22-79
+permission#your.package.name.permission.C2D_MESSAGE
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:27:5-29:47
+	android:protectionLevel
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:29:9-44
+	android:name
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:28:9-64
+uses-permission#your.package.name.permission.C2D_MESSAGE
+ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from [teledom_platform:pnwebrtc:unspecified] /home/leodimark/Android/app/teledom_platform/pnwebrtc/build/intermediates/bundles/default/AndroidManifest.xml:31:22-77

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/xml/apppreferences.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/xml/apppreferences.xml"
+    },
+    {
+        "merged": "/home/leodimark/Android/app/teledom_platform/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/leodimark/Android/app/teledom_platform/res/xml/config.xml"
+    }
+]

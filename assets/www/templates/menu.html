@@ -1,0 +1,243 @@
+<ion-side-menus id="menu" enable-menu-with-back-views="false">
+	<ion-side-menu-content edge-drag-threshold="80">
+		<ion-nav-bar class="bar-stable">
+			<ion-nav-buttons side="left">
+				<button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+			</ion-nav-buttons>
+			<ion-nav-buttons side="right">
+				<pre>{{call.permit.value}}</pre>
+				<label class="toggle">
+					<input type="checkbox" ng-model="call.permit.enabled" ng-change="call.permit.onChange()">
+					<div class="track" ng-class="{false:'track-disable', true:''}[call.permit.enabled]">
+						<div class="handle"></div>
+					</div>
+				</label>
+			</ion-nav-buttons>
+		</ion-nav-bar>
+		<ion-nav-view name="menuContent"></ion-nav-view>
+	</ion-side-menu-content>
+
+	<ion-side-menu side="left" expose-aside-when="large">
+		<ion-content drag-content="false">
+			<header>
+				<div class="user">
+					<img check-image ng-src="{{ user.img }}">
+				</div>
+				<div class="name">{{ user.name }}</div>
+			</header>
+			<ion-list>
+				<ion-item class="item item-icon-left item-one-line" href="#/app/history" ng-class="{'active': selectedMenu == 'history'}" ng-click="toggleLeftSideMenu('history')">
+					<i class="icon icon-history"></i>
+					<h2>История</h2>
+				</ion-item>
+				<ion-item class="item item-icon-left item-two-line item-disabled" href="#" ng-class="{'active': selectedMenu == 'airkey'}" ng-click="toggleLeftSideMenu('airkey')">
+					<i class="icon icon-airkey"></i>
+					<h2>Airkey</h2>
+					<p>скоро доступно</p>
+				</ion-item>
+				<ion-item class="item item-icon-left item-two-line item-disabled" href="#" ng-class="{'active': selectedMenu == 'settings'}" ng-click="toggleLeftSideMenu('settings')">
+					<i class="icon icon-settings"></i>
+					<h2>Настройки</h2>
+					<p>скоро доступно</p>
+				</ion-item>
+				<ion-item class="item item-icon-left item-one-line" href="#/app/about" ng-class="{'active': selectedMenu == 'about'}" ng-click="toggleLeftSideMenu('about')">
+					<i class="icon icon-about"></i>
+					<h2>O Teledom</h2>
+				</ion-item>
+				<ion-item class="item item-icon-left item-one-line" href="#" ng-class="{'active': selectedMenu == 'exit'}" ng-click="toggleLeftSideMenu('exit')">
+					<i class="icon icon-exit"></i>
+					<h2>Выход</h2>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+	</ion-side-menu>
+</ion-side-menus>
+
+<style>
+
+	#menu {
+		color: #000;
+		max-width: inherit;
+	}
+
+	#menu ion-side-menu,
+	#menu item-avatar {
+		background-color: #384967;
+	}
+
+	#menu .list .item,
+	#menu .bar-header,
+	#menu .ion-navicon {
+		background-color: #39527b;
+		color: #fff;
+	}
+
+	#menu ion-header-bar {
+		background-size: 0;
+	}
+
+	#menu .bar {
+		padding: 5px 10px !important;
+	}
+
+	#menu .header-item .right-buttons {
+		padding-right: 5px;
+	}
+
+	#menu .has-header {
+		top: 70px;
+	}
+
+	#menu .list .item,
+	#menu .bar-header {
+		border: 0;
+		color: #fff;
+		height: 70px;
+	}
+
+	#menu ion-header-bar .buttons-right.header-item {
+		padding-top: 13px;
+	}
+
+	#menu ion-header-bar .buttons-left.header-item  {
+		padding-top: 8px;
+	}
+
+	#menu .item-one-line .item-content {
+		padding: 22px 15px 22px 92px;
+	}
+
+	#menu .item-two-line .item-content {
+		padding: 13px 15px 13px 92px;
+	}
+
+	#menu .item-content {
+		background: transparent;
+		height: 100%;
+	}
+
+	#menu .item-disabled .item-content h2 {
+		color: rgba(255,255,255,.3);
+	}
+
+	#menu .item.active.item-complex > .item-content {
+		background: #516a8a;
+	}
+
+	#menu .item .item-content.activated  {
+		background: rgba(0,0,0,.2);
+	}
+
+	#menu .list,
+	#menu .list .item:last-child {
+		border-top: 1px solid #516a8a;
+		padding: 0;
+	}
+
+	#menu ion-side-menu .has-header {
+		top: 215px;
+	}
+
+	#menu header {
+		display: block;
+		margin: 0;
+		text-align: center;
+		color: #fff;
+	}
+
+	#menu header .user {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+    display: inline-block;
+    margin: 20px auto;
+	}
+
+	#menu header .user img {
+		height: 100%;
+		width: 100%;
+		border-radius: 50%;
+	}
+
+	#menu header .name {
+		margin: 0 0 15px;
+	}
+
+
+	#menu .right-buttons {
+	    line-height: 1.5em;
+	}
+
+	#menu label.toggle {
+		margin-left: 10px !important;
+	}
+
+	#menu .toggle .track.track-disable {
+		background-color: #fc4c4e;
+		border-color: #fc4c4e;
+	}
+
+	#menu .item-icon-left .icon {
+	    left: 24px;
+	}
+
+	.item {
+		font-family: "Roboto",sans-serif;
+    font-weight: 400;
+	}
+
+	.item h2 {
+		font-size: 20px;
+	}
+
+	.item p {
+		font-size: 13px;
+	}
+
+	#menu .item,
+	#menu .item h2,
+	#menu .item p  {
+		color: #fff;
+		margin: 0;
+	}
+
+
+	.icon-history:before,
+	.icon-airkey:before,
+	.icon-settings:before,
+	.icon-about:before,
+	.icon-exit:before {
+	  display: inline-block;
+	  font-family: "Ionicons";
+	  speak: none;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  text-rendering: auto;
+	  line-height: 1;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-history:before {
+		content: url(img/icon1.png);
+	}
+	.icon-airkey:before {
+		content: url(img/icon2.png);
+	}
+	.icon-settings:before {
+		content: url(img/icon3.png);
+	}
+	.icon-about:before {
+		content: url(img/icon4.png);
+	}
+	.icon-exit:before  {
+		content: url(img/icon5.png);
+	}
+
+	#menu .bar .button-icon:before {
+		font-size: 40px;
+		color: #fff;
+	}
+</style>

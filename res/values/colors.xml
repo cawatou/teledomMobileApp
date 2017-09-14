@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pn_red">#d02129</color>
+    <color name="pn_blue">#8519a2c6</color>
+    <color name="pn_blue_dark">#ff187998</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#1ce322</color>
+    <color name="grey">#eee</color>
+    <color name="blue_dark">#ff1976d1</color>
+    <color name="blue">#ff2195f2</color>
+    <color name="background">#39527b</color>
+    <color name="shadow">#aa000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#a4303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRossoBordo">#8f471c15</color>
+</resources>

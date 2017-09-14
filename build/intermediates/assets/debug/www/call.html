@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TELEDOM</title>
+    <link rel="manifest" href="manifest.json">
+
+    <!-- compiled css output -->
+    <link rel="stylesheet" href="css/ionic.app.css">
+</head>
+<body>
+<!-- Styles -->
+<style> video { width: 100%; } html, body {height: 100%; width: 100%;} #video-out {background-color: #272628;height: 100%; width: 100%;}</style>
+
+<!-- Video Output Zone -->
+
+<div id="video-out">JOPA</div>
+
+<!-- Libs and Scripts -->
+<script src="https://cdn.pubnub.com/pubnub.js"></script>
+
+
+<!-- WebRTC SDK -->
+<script src="js/webrtc.js"></script>
+<script>(function() {
+    var video_out = PUBNUB.$('video-out');
+
+    // Phone
+    var phone     = window.phone = PHONE({
+        number        : '1400503547180432080e-stdby',
+        publish_key   : 'pub-c-93f04d9d-dac3-46f6-930d-164cce692f44',
+        subscribe_key : 'sub-c-e2ff393a-a729-11e6-a114-0619f8945a4f',
+        ssl           : true
+    });
+
+
+    // As soon as the phone is ready we can make calls
+    phone.ready(function(){
+
+            console.log("PHONE READY");
+        //phone.$('video-out').appendChild(phone.video);
+        var session = phone.dial(number);
+    });
+
+    // When Call Comes In
+    phone.receive(function(session){
+        session.message(function(message){
+            console.log("GET MESSAGE: " + message);
+        });
+
+        session.connected( function(session) {
+            console.log('Session: CONNECTED');
+            video_out.appendChild(session.video);
+        });
+        session.ended( function(session) { console.log('Session: ENDED');} );
+    });
+
+        // Debugging Output
+        phone.debug(function(details){
+            console.log(details);
+        });
+
+}())</script>
+</body>
+</html>

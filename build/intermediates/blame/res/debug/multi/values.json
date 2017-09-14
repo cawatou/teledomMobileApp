@@ -1,0 +1,558 @@
+[
+    {
+        "outputFile": "/home/leodimark/Android/app/teledom_platform/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 110,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/apppreferences.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 11,
+                        "startOffset": 50,
+                        "endColumn": 117,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endColumn": 102,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/apppreferences.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 117,
+                        "startOffset": 156,
+                        "endColumn": 215,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 44,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 392,
+                        "endColumn": 44,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 40,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 40,
+                        "endOffset": 387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 45,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 45,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 401,
+                    "endColumn": 45,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 580,
+                        "endColumn": 45,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 46,
+                    "endOffset": 489
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 480,
+                        "endColumn": 46,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 494,
+                    "endColumn": 52,
+                    "endOffset": 542
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 52,
+                        "endOffset": 575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 547,
+                    "endColumn": 51,
+                    "endOffset": 594
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 626,
+                        "endColumn": 51,
+                        "endOffset": 673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 599,
+                    "endColumn": 39,
+                    "endOffset": 634
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 39,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 639,
+                    "endColumn": 35,
+                    "endOffset": 670
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 35,
+                        "endOffset": 300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 675,
+                    "endColumn": 43,
+                    "endOffset": 714
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 96,
+                        "endColumn": 43,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 719,
+                    "endColumn": 48,
+                    "endOffset": 763
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 48,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 768,
+                    "endColumn": 40,
+                    "endOffset": 804
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 40,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 809,
+                    "endColumn": 42,
+                    "endOffset": 847
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 42,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 852,
+                    "endColumn": 39,
+                    "endOffset": 887
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 39,
+                        "endOffset": 224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1305,
+                    "endColumn": 57,
+                    "endOffset": 1358
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 88,
+                        "endColumn": 57,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1363,
+                    "endColumn": 55,
+                    "endOffset": 1414
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 55,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1419,
+                    "endColumn": 41,
+                    "endOffset": 1456
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 41,
+                        "endOffset": 239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1461,
+                    "endColumn": 52,
+                    "endOffset": 1509
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 52,
+                        "endOffset": 578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1514,
+                    "endColumn": 63,
+                    "endOffset": 1573
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 159,
+                        "endColumn": 63,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1578,
+                    "endColumn": 44,
+                    "endOffset": 1618
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1623,
+                    "endColumn": 50,
+                    "endOffset": 1669
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endColumn": 50,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1674,
+                    "endColumn": 62,
+                    "endOffset": 1732
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endColumn": 71,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1737,
+                    "endColumn": 60,
+                    "endOffset": 1793
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 60,
+                        "endOffset": 351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1798,
+                    "endColumn": 46,
+                    "endOffset": 1840
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 583,
+                        "endColumn": 46,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1845,
+                    "endColumn": 50,
+                    "endOffset": 1891
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 356,
+                        "endColumn": 50,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1896,
+                    "endColumn": 58,
+                    "endOffset": 1950
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 58,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1955,
+                    "endColumn": 71,
+                    "endOffset": 2022
+                },
+                "from": {
+                    "file": "/home/leodimark/Android/app/teledom_platform/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 71,
+                        "endOffset": 290
+                    }
+                }
+            }
+        ]
+    }
+]

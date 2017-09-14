@@ -1,0 +1,55 @@
+<ion-modal-view id="signin" ng-controller="SigninCtrl">
+	<ion-content>
+		<div class="wrapper-contant">
+		  <div class="main-content">
+		    <h2>TELEDOM</h2>
+		    <input type="number" maxlength="10" placeholder="{{ signin.text }}" ng-model="signin.input" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" />
+			<button ng-click="sendPhone(signin.input)" ng-show="!signin.repeat">Получить смс код</button>
+			<p id="status" ng-show="signin.repeat">{{ signin.timer }}</p>
+			<button ng-click="sendSMS(signin.input)" ng-show="signin.repeat">Отправить смс код</button>
+		  </div>
+		</div>
+	</ion-content>
+</ion-modal-view>
+
+<style>
+	#signin .wrapper-contant {
+		width: 100%;
+		height: 100%;
+	}
+	#signin .main-content {
+		border: 0px solid green;
+		min-width: 250px;
+		max-width: 300px;
+		width: 80%;
+		white-space:nowrap;
+	}
+	#signin h2 {
+		border: 0px solid green;
+	}
+	#signin button {
+	    margin-top: 20px;
+	}
+  .popup-body {
+    color: #000;
+    text-align: center;
+	font-size: 0.8rem;
+  }
+	#signin input:focus{
+		border: 1px solid #35baf3;
+	}
+	#signin input{
+		border: 0px solid green;
+		height: 2.5em;
+		border-bottom: 1px solid #fff;
+	}
+
+	#signin  input::-webkit-input-placeholder,
+	#signin #status {
+		font-size: .6rem;
+		font-weight: bold;
+		text-align: center;
+		width: 100%;
+	}
+
+</style>

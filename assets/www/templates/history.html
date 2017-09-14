@@ -1,0 +1,104 @@
+<ion-view id="history">
+	<ion-content id="calls" class="has-header">
+		<div class="time-period" style="display: flex;" class="bar-stable">
+			<div class="wrapper-input">
+				<input class="datepicker" type="text" ng-model="filter.date.start" ng-class="{'active': isActive('start')}" ng-click="setActive('start')" readonly>
+			</div>
+			<strong>-</strong>
+			<div class="wrapper-input">
+				<input class="datepicker" type="text"  ng-model="filter.date.stop" ng-class="{'active': isActive('stop')}" ng-click="setActive('stop')" readonly>
+			</div>
+    	</div>
+		<div class="row">
+  		<div class="col">
+				<ion-checkbox ng-model="filter.calls" ng-click="doFilter()">Звонки</ion-checkbox>
+			</div>
+  		<div class="col">
+				<ion-checkbox ng-model="filter.keys" ng-click="doFilter()">Входы по ключу</ion-checkbox>
+			</div>
+		</div>
+		<div class="padding" ng-show="emptystring" style="text-align: center;">
+			<p style="font-size: .7em;">за выбранный период записи отсутствуют</p>
+		</div>
+		<ion-item class="item-thumbnail-left" collection-repeat="item in items" href="#/app/calls/{{ item.id }}">
+			<img check-image ng-src="{{ item.img }}"></img>
+			<h2>{{ item.title }}</h2>
+     	<p>{{ item.time }}</p>
+  	</ion-item>
+	</ion-content>
+</ion-view>
+<style>
+
+	#history .button {
+		border: 0;
+		border-radius: 0 !important;
+		background-color: #fff;
+	}
+
+	#history .button-bar .button {
+		font-size: 17px !important;
+		padding: 23px 0 20px !important;
+		line-height: 17px !important;
+		border-bottom: 2px solid #ededf1;
+	}
+
+	#history.button-bar > .button:last-child {
+		border-left: 2px solid #ededf1;
+	}
+
+	#history .button.button-positive,
+	#history .button.button-positive.activated,
+	#history .button.button-positive.active {
+		background: #35baf3;
+	}
+
+	#history .time-period input {
+		height: inherit;
+		padding: 4px 5px 5px 15px;
+		color: #000;
+	}
+
+	@media (min-height: 33.875em) {
+		.ionic_datepicker_modal.modal {
+			top: 140px;
+			bottom: 0;
+			min-height: calc(100% - 193px);
+			box-shadow: 0 0 15px 5px rgba(0,0,0,0.6);
+			color: #000;
+		}
+
+		.modal-backdrop-bg {
+			background-color: rgba(0,0,0,0.5);
+		}
+	}
+
+	.time-period .active {
+		border-color: #35baf3 !important;
+	}
+	.time-period .wrapper-input:after {
+	    top: 5px;
+			z-index: 3;
+	}
+	.time-period {
+		padding: 15px 5px;
+	}
+	#history #calls .item,
+	#history #calls h2,
+	#history #calls p {
+		color: #000;
+	}
+
+	#history #calls .item-checkbox{
+		/*border: none;*/
+		background: #ededf1;
+	}
+
+	#history #calls .row,
+	#history #calls .col{
+		padding: 0;
+		color: #000;
+	}
+
+
+
+</style>
